@@ -1,0 +1,37 @@
+backend env:
+# Server Configuration
+PORT=3000
+NODE_ENV=development
+API_PREFIX=api
+
+# Database Configuration
+DATABASE_HOST=localhost
+DATABASE_PORT=5432
+DATABASE_USERNAME=postgres
+DATABASE_PASSWORD=postgres
+DATABASE_NAME=gamutx_lms_dev
+
+# JWT Authentication
+JWT_SECRET=development_jwt_secret_key_not_for_production
+JWT_EXPIRATION=1d
+
+# Swagger Documentation
+SWAGGER_TITLE=GamutX LMS API (Development)
+SWAGGER_DESCRIPTION=The Learning Management System API documentation - Development Environment
+SWAGGER_VERSION=1.0
+SWAGGER_PATH=api/docs
+
+# CORS Settings
+CORS_ORIGIN=*
+SUPABASE_URL=https://ewltvcjihufgyzreggtc.supabase.co
+SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImV3bHR2Y2ppaHVmZ3l6cmVnZ3RjIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDkxMjE2MzUsImV4cCI6MjA2NDY5NzYzNX0.yL5WVkzUtWhNN3L7mTYGQ4Wc3h8bCi6fnkSYAsjJEp0
+FRONTEND_URL=http://localhost:3000
+COOKIE_LIFETIME=30
+PORT=5000
+NODE_ENV=development
+SUPABASE_SERVICE_ROLE_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImV3bHR2Y2ppaHVmZ3l6cmVnZ3RjIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc0OTEyMTYzNSwiZXhwIjoyMDY0Njk3NjM1fQ.WS3pqpsL24IF-Y_AYsVy5nQ4x9AziIDK5g1azACaN6k
+
+
+
+Frontend env:
+NEXT_PUBLIC_API_URL=http://localhost:5000
